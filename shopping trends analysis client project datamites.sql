@@ -5,8 +5,8 @@ describe shopping_trends_dataset;
 describe shopping_table;
 select * from shopping_table;
 
-# 1) Identify the product categories where discounts should be applied. Provide your reasoning.
 # Category-wise Discount Analysis
+# 1) Identify the product categories where discounts should be applied. Provide your reasoning.
 SELECT Category,
 		COUNT(*) AS total_orders,
         AVG(Purchase_Amount_USD) AS avg_amount,
